@@ -1,0 +1,194 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid blueviolet;
+    position: relative;
+  }
+  
+  .site-title {
+    font-size:larger;
+    font-weight: bold;
+    color: purple;
+  }
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: purple; 
+    cursor: pointer;
+    z-index: 1000; 
+  }
+  .nav-menu {
+    display: flex;
+    gap: 50px;
+  }
+  .nav-menu a {
+    text-decoration:dotted;
+    color: purple;
+    font-weight: 500;
+  }
+   .nav-menu a:hover{
+   color:purple;
+   background-color: white;
+   text-decoration: underline;
+   }
+  
+  @media (max-width: 768px){
+    .menu-toggle {
+      display: block;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border-top: 1px solid blueviolet;
+  }
+  .nav-menu.show {
+    display: flex;
+  }
+}
+.ligue1logo {
+   width: 100%;
+  max-width: 800px;  /* Controls max size on big screens */
+  margin: 0 auto;    /* ✅ This centers the image */
+  overflow: hidden;
+}
+
+.ligue1logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.main-heading {
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(90, 0, 128);
+  font-weight: lighter;
+  font-style: normal;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+h2{
+  margin-top: 10px;
+  font-weight: lighter;
+  text-align: center;
+  color: rgb(90, 0, 128);
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.products {
+    display: inline;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  
+  .product-card {
+    flex:0 o auto;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(90, 0, 128);
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 30px;
+  }
+
+  h4 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(90, 0, 128);
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 30px;
+  }
+
+  h5 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(90, 0, 128);
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 30px; 
+  }
+
+  h6 {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(90, 0, 128);
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 30px;
+  }
+  p{
+    margin: 2em;
+    background-color: white;
+    color: purple;
+    font-size: 150%;
+    text-align: center;
+    font: 30px italic lighter;
+  }
+ 
+   div#socialmedia{
+    width: 100%;
+    text-align: center;
+}
+
+div#socialmedia img{
+    border: 3px solid purple;
+    border-radius: 10px;
+}
