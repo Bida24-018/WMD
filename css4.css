@@ -69,8 +69,8 @@
 }
 .ligue1logo {
    width: 100%;
-  max-width: 800px;  /* Controls max size on big screens */
-  margin: 0 auto;    /* ✅ This centers the image */
+  max-width: 800px;  
+  margin: 0 auto;  
   overflow: hidden;
 }
 
