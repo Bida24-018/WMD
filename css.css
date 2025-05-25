@@ -92,40 +92,39 @@
   }
  
   .bestsellers {
+    display: inline;
     padding: 30px;
     text-align: center;
     background-color: white;
   }
   
   .product-grid {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: rap;
+     display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    flex-wrap: nowrap;
     gap: 20px;
-    padding: 20px;
-    justify-content: content;
+    padding: 10px;
+    justify-content: flex-start;
   }
   
   .product-card {
     display: flex;
-    flex-direction: column;
-     margin: 10px;
+    flex-wrap: wrap;
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 100%;
-    max-width: 200px;
+    width: 220%;
+    max-width: 300px;
     text-align: center;
   }
   
   .product-card img {
     display: block;
     width: 100%;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
-    margin: 0 auto 10px;
   }
 
   h2 {
