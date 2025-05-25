@@ -92,16 +92,15 @@
   }
  
   .bestsellers {
-    display: inline;
     padding: 30px;
     text-align: center;
     background-color: white;
   }
   
   .product-grid {
-    display: grid;
-    grid-template-columns: repeat(autofit,minmax(150px, 1fr)); 
-    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: rap;
     gap: 20px;
     padding: 10px;
     justify-content: flex-start;
@@ -114,7 +113,7 @@
     border-radius: 10px;
     padding: 15px;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     text-align: center;
   }
   
