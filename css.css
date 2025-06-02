@@ -99,7 +99,7 @@
   }
   
   .product-grid {
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr); 
     flex-wrap: nowrap;
     gap: 20px;
@@ -210,7 +210,9 @@
     text-align: center;
     font: 30px italic lighter;
   }
-  
+  div#footer{
+    margin-top: 10em;
+  }
   div#socialmedia{
     width: 100%;
     text-align: center;
